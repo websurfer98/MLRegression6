@@ -1,0 +1,35 @@
+Using training data...
+
+
+Using test data...
+Query house:  [ 0.01345102  0.01551285  0.01807473  0.01759212  0.00160518  0.01
+7059    0.
+  0.05102365  0.0116321   0.01564352  0.01362084  0.02481682  0.01350306
+  0.          0.01345387 -0.01346922  0.01375926  0.0016225 ]
+Training house #10; [ 0.01345102  0.01163464  0.00602491  0.0083488   0.00050756
+  0.01279425
+  0.          0.          0.01938684  0.01390535  0.0096309   0.
+  0.01302544  0.          0.01346821 -0.01346251  0.01195898  0.00156612]
+Euclidean distance:  0.059723593714
+The closest training house is (zero-based index):  8
+Testing a result of -0.0934339605842:  -0.0934339987465
+Testing for equality:  0.00330705902846 0.00330705902846
+distances[100] should contain 0.0237082324496:  0.0237082324167
+The closest training house is to features_test[2] (zero-based index):  382
+Predicted value of features_test[2]:  249000.0
+The closest k(4) training houses to features_test[2] (zero-based index)):  [382,
+ 1149, 4087, 3142]
+The predicted price based on 4 nearest:  413987.5
+The predicted price based on 10 nearest for the first 10:  [881300.0, 431860.0,
+460595.0, 430200.0, 766750.0, 667420.0, 350032.0, 512800.70000000001, 484000.0,
+457235.0]
+The house with the lowest predicted value (zero-based index):  6
+The values of this house:  350032.0
+
+
+Using validation data...
+The minimum rss index (zero-based):  7
+The value of k is:  8
+The rss value is over the test set:  1.33091689367e+14
+
+
